@@ -1,0 +1,19 @@
+services:
+  rsocket-server:
+    image: "rsocket-sample:0.0.1-SNAPSHOT"
+    container_name: rsocket-server
+    ports:
+      - 7000:7000
+    depends_on:
+      - nltk-server
+    environment:
+      - NLTK_URI=nltk-server
+      - NLTK_PORT=9999
+    restart: always
+
+  nltk-server:
+    image: "nltk-server:latest"
+    container_name: nltk-server
+    ports:
+      - 127.0.0.1:9999:9999
+    restart: always
