@@ -1,4 +1,4 @@
-package ru.esqlap.rsocketsample
+package ru.esqlap.providerserver
 
 import com.google.common.truth.Truth
 import org.junit.jupiter.api.AfterAll

@@ -1,4 +1,4 @@
-package ru.esqlap.rsocketsample
+package ru.esqlap.providerserver
 
 import org.springframework.core.ParameterizedTypeReference
 

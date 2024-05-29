@@ -1,6 +1,6 @@
 services:
   rsocket-server:
-    image: "rsocket-sample:0.0.1-SNAPSHOT"
+    image: "provider-server:0.0.1-SNAPSHOT"
     container_name: rsocket-server
     ports:
       - 7000:7000

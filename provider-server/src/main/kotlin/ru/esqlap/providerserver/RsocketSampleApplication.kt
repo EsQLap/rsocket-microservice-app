@@ -1,4 +1,4 @@
-package ru.esqlap.rsocketsample
+package ru.esqlap.providerserver
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

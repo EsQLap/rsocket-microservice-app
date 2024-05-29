@@ -1,4 +1,4 @@
-package ru.esqlap.rsocketsample
+package ru.esqlap.providerserver
 
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.Bean
